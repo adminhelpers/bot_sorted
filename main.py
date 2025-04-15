@@ -13,7 +13,7 @@ cluster = MongoClient("mongodb+srv://dollarbaby:dollarbabys1703@cluster0.emygmrh
 db = cluster["Cluster0"]
 data_base = db["sclud"]
 
-bot = telebot.TeleBot('5515463608:AAFmyO9G-3Sk9JtUJVmpwOuPdJxgPoopFrM')
+bot = telebot.TeleBot('№№№№№№')
 
 @bot.message_handler(commands=['start']) # /start
 def start_message(message):
